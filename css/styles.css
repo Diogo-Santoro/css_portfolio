@@ -1,0 +1,85 @@
+/***********************  CSS / GLOBAL  ***********************/
+body {
+    color: #486470;
+    background: #f9e5f0;`
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+
+}
+
+
+a:hover {
+    opacity: 1.0;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/***********************  CSS / Profile  ***********************/
+header {
+    background: #343449;
+    color: #f7fff7;
+
+}
+
+
+/***********************  CSS / Projects  ***********************/
+.projects a {
+    background : #486470;
+    color : #f9e5f0;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block
+}
+
+/***********************  CSS / Working Experience  ***********************/
+.work-experience a {
+    background : #486470;
+    color : #f9e5f0;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.work-experience {
+    color: #486470;
+    background: #f9f5f9;
+}
+
+/***********************  CSS / Education  ***********************/
+.education a {
+    background : #486470;
+    color : #f9e5f0;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/***********************  CSS / Contact  ***********************/
+footer {
+    background: #343449;
+    color: #f7fff7;
+}
+
+.footer a {
+    color: black;
+    background: #343449;
+}
