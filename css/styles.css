@@ -15,6 +15,7 @@ a {
     transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -webkit-transition: opacity 0.3s ease-in-out;
+
 }
 
 
@@ -28,6 +29,7 @@ a:hover {
 .content-wrap {
     width: 900px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 /***********************  CSS / Profile  ***********************/
@@ -45,6 +47,7 @@ header {
     border-radius: 8px;
     padding: 8px;
     text-decoration: none;
+    display: inline-block
 }
 
 /***********************  CSS / Working Experience  ***********************/
@@ -74,4 +77,9 @@ header {
 footer {
     background: #343449;
     color: #f7fff7;
+}
+
+.footer a {
+    color: black;
+    background: #343449;
 }
