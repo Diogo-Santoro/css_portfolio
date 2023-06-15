@@ -4,6 +4,27 @@ body {
     background: #f9e5f0;`
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+
 }
 
 img {
@@ -29,7 +50,7 @@ a:hover {
 .content-wrap {
     width: 900px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 /***********************  CSS / Profile  ***********************/
@@ -39,6 +60,14 @@ header {
 
 }
 
+header a {
+    background : #f7fff7;
+    color: #343449;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block
+}
 
 /***********************  CSS / Projects  ***********************/
 .projects a {
@@ -79,7 +108,7 @@ footer {
     color: #f7fff7;
 }
 
-.footer a {
-    color: black;
+footer a {
+    color: #f7fff7;
     background: #343449;
 }
